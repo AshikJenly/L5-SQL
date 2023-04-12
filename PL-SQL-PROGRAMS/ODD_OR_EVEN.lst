@@ -1,0 +1,19 @@
+CREATE OR REPLACE PROCEDURE oddev(x IN number ) 
+AS
+BEGIN
+	IF MOD(x,2)= 0 THEN
+	       DBMS_OUTPUT.put_line('Even');
+	ELSE 
+	      DBMS_OUTPUT.put_line('Odd');
+	END IF;
+
+END ;
+/
+
+DECLARE
+	a number :=12;
+	
+BEGIN 
+	oddev(a);
+END ;
+/
