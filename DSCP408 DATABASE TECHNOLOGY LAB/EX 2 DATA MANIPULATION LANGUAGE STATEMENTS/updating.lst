@@ -1,0 +1,23 @@
+UPDATE  std3
+SET 
+total = (m1 + m2 + m3);
+
+
+UPDATE std3
+SET 
+avg =(total/3);
+
+UPDATE std3
+SET
+grade = ('S')
+WHERE avg > 80;
+
+UPDATE std3
+SET
+grade = ('A')
+WHERE avg > 60 and avg <=80;
+
+UPDATE std3
+SET
+grade = ('B')
+WHERE avg <=60;

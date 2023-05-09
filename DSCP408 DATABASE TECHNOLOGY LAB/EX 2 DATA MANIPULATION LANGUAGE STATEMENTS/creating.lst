@@ -1,0 +1,10 @@
+create table std3
+(
+  sname
+  varchar2(10),
+  roll number(5),
+  dept varchar(3),
+  m1 number(3),
+  m2 number(3),
+  m3 number(3)
+);

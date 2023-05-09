@@ -1,0 +1,4 @@
+
+DELETE FROM 
+std3
+where m1 = < 50;
