@@ -1,0 +1,15 @@
+-- FROM USER INPUT
+
+INSERT INTO std3
+VALUES
+('&name','&roll','&dept','&m1','&m2','&m3');
+
+-- HARD CODED VALUES
+INSERT INTO std3
+VALUES
+('Rahim',222,'CSE',65,65,80);
+
+
+INSERT INTO 
+std3(roll, dept, m1, m2, m3,sname)
+VALUES(55,'ECE',50,50,65,'Banu');
