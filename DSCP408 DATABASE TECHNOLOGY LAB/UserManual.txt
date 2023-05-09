@@ -1,0 +1,6 @@
+TO LOGIN
+  username : sys as sysdba
+ 
+TO SET VIEW SIZE
+  SET LINESIZE 200  (for columns)
+  SET PAGESIZE 1000 (for rows)
